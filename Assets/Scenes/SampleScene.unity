@@ -874,12 +874,12 @@ PrefabInstance:
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2639999
+      value: 3.13
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.41
+      value: 110.8
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -1008,6 +1008,12 @@ Transform:
 --- !u!1 &243299774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7696548424635294048, guid: 895f6f3c2d334633b5800312285058d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 243299771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &243299775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
     type: 3}
   m_PrefabInstance: {fileID: 243299771}
   m_PrefabAsset: {fileID: 0}
@@ -1902,7 +1908,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512375570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 116247e50822d764f84b9b6d6d4ec23e, type: 3}
   m_Name: 
@@ -2300,12 +2306,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eeac5f451f7b0d419a267938632a95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rope: {fileID: 0}
-  Player: {fileID: 0}
   lineRenderer: {fileID: 1289556785}
   lineRenderers: []
   startWidth: 0.2
   EndWidth: 0.2
+  ropeTransform: {fileID: 1289556786}
+  playerTransform: {fileID: 243299775}
+  swingForce: 10
+  playerRigidBody: {fileID: 243299797}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3131,7 +3139,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195962964}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 116247e50822d764f84b9b6d6d4ec23e, type: 3}
   m_Name: 
@@ -5616,7 +5624,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29262
+  m_Name: pb_Mesh31502
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
