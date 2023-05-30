@@ -52,8 +52,5 @@ public class JumpController : MonoBehaviour
        // }
     }
 
-    private void OnJumpa()
-    {
-        _body.AddForce(Vector3.up * jumpForce);
-    }
+
 }
