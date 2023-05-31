@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 9b1df96701fbf8f499dc531382901ec3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Weapon Crate A1
+    100002: Weapon Crate A2
+    100004: Weapon Crate A3
+    100006: Weapon Crate A4
+    100008: Weapon Crate B1
+    100010: Weapon Crate B2
+    100012: Weapon Crate C1
+    100014: Weapon Crate C2
+    100016: Weapon Crate C3
+    100018: Weapon Crate C4
+    100020: Weapon Crate D1
+    100022: Weapon Crate D2
+    100024: Weapon Crate D3
+    100026: Weapon Crate D4
+    100028: Weapon Crate E1
+    100030: Weapon Crate E2
+    100032: Weapon Crate E3
+    100034: Weapon Crate Small A1
+    100036: Weapon Crate Small A2
+    100038: Weapon Crate Small A3
+    100040: Weapon Crate Small B1
+    100042: Weapon Crate Small B2
+    100044: //RootNode
+    400000: Weapon Crate A1
+    400002: Weapon Crate A2
+    400004: Weapon Crate A3
+    400006: Weapon Crate A4
+    400008: Weapon Crate B1
+    400010: Weapon Crate B2
+    400012: Weapon Crate C1
+    400014: Weapon Crate C2
+    400016: Weapon Crate C3
+    400018: Weapon Crate C4
+    400020: Weapon Crate D1
+    400022: Weapon Crate D2
+    400024: Weapon Crate D3
+    400026: Weapon Crate D4
+    400028: Weapon Crate E1
+    400030: Weapon Crate E2
+    400032: Weapon Crate E3
+    400034: Weapon Crate Small A1
+    400036: Weapon Crate Small A2
+    400038: Weapon Crate Small A3
+    400040: Weapon Crate Small B1
+    400042: Weapon Crate Small B2
+    400044: //RootNode
+    2100000: Crate Detail 1
+    2100002: Crate Base 1
+    2300000: Weapon Crate A1
+    2300002: Weapon Crate A2
+    2300004: Weapon Crate A3
+    2300006: Weapon Crate A4
+    2300008: Weapon Crate B1
+    2300010: Weapon Crate B2
+    2300012: Weapon Crate C1
+    2300014: Weapon Crate C2
+    2300016: Weapon Crate C3
+    2300018: Weapon Crate C4
+    2300020: Weapon Crate D1
+    2300022: Weapon Crate D2
+    2300024: Weapon Crate D3
+    2300026: Weapon Crate D4
+    2300028: Weapon Crate E1
+    2300030: Weapon Crate E2
+    2300032: Weapon Crate E3
+    2300034: Weapon Crate Small A1
+    2300036: Weapon Crate Small A2
+    2300038: Weapon Crate Small A3
+    2300040: Weapon Crate Small B1
+    2300042: Weapon Crate Small B2
+    3300000: Weapon Crate A1
+    3300002: Weapon Crate A2
+    3300004: Weapon Crate A3
+    3300006: Weapon Crate A4
+    3300008: Weapon Crate B1
+    3300010: Weapon Crate B2
+    3300012: Weapon Crate C1
+    3300014: Weapon Crate C2
+    3300016: Weapon Crate C3
+    3300018: Weapon Crate C4
+    3300020: Weapon Crate D1
+    3300022: Weapon Crate D2
+    3300024: Weapon Crate D3
+    3300026: Weapon Crate D4
+    3300028: Weapon Crate E1
+    3300030: Weapon Crate E2
+    3300032: Weapon Crate E3
+    3300034: Weapon Crate Small A1
+    3300036: Weapon Crate Small A2
+    3300038: Weapon Crate Small A3
+    3300040: Weapon Crate Small B1
+    3300042: Weapon Crate Small B2
+    4300000: Weapon Crate Small A3
+    4300002: Weapon Crate Small A1
+    4300004: Weapon Crate Small A2
+    4300006: Weapon Crate Small B1
+    4300008: Weapon Crate Small B2
+    4300010: Weapon Crate A1
+    4300012: Weapon Crate A4
+    4300014: Weapon Crate E3
+    4300016: Weapon Crate C4
+    4300018: Weapon Crate C1
+    4300020: Weapon Crate D2
+    4300022: Weapon Crate D4
+    4300024: Weapon Crate E2
+    4300026: Weapon Crate D3
+    4300028: Weapon Crate D1
+    4300030: Weapon Crate B2
+    4300032: Weapon Crate B1
+    4300034: Weapon Crate C2
+    4300036: Weapon Crate C3
+    4300038: Weapon Crate A3
+    4300040: Weapon Crate A2
+    4300042: Weapon Crate E1
+    6400000: Weapon Crate A1
+    6400002: Weapon Crate A2
+    6400004: Weapon Crate A3
+    6400006: Weapon Crate A4
+    6400008: Weapon Crate B1
+    6400010: Weapon Crate B2
+    6400012: Weapon Crate C1
+    6400014: Weapon Crate C2
+    6400016: Weapon Crate C3
+    6400018: Weapon Crate C4
+    6400020: Weapon Crate D1
+    6400022: Weapon Crate D2
+    6400024: Weapon Crate D3
+    6400026: Weapon Crate D4
+    6400028: Weapon Crate E1
+    6400030: Weapon Crate E2
+    6400032: Weapon Crate E3
+    6400034: Weapon Crate Small A1
+    6400036: Weapon Crate Small A2
+    6400038: Weapon Crate Small A3
+    6400040: Weapon Crate Small B1
+    6400042: Weapon Crate Small B2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate Base 1
+    second: {fileID: 2100000, guid: abec9e983b52ad54b9044b1b9c4a69a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crate Detail 1
+    second: {fileID: 2100000, guid: 386147a78df83034896ec744da8b3c94, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

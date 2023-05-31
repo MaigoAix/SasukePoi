@@ -2,14 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
+
+[RequireComponent(typeof(Rigidbody))]   
 
 public class SwingController : MonoBehaviour
 {
-  //  public GameObject Rope;
-  //  public GameObject Player;
-   // private Vector3 ropePosition;
-   // private Vector3 playerPosition;
-
+    //  public GameObject Rope;
+    //  public GameObject Player;
+    // private Vector3 ropePosition;
+    // private Vector3 playerPosition;
+    [SerializeField] private InputActionReference swingInputReference;
 
 
     public LineRenderer lineRenderer;
@@ -30,14 +34,14 @@ public class SwingController : MonoBehaviour
     private Vector3 previousRopePosition;
 
     [Header("Player/Rope Physics var")]
-    [SerializeField] public float StartswingForce = 10f;
+    [SerializeField] public float StartswingForce = 800f;
     [SerializeField] public float NewswingForce;
     [SerializeField] private Rigidbody playerRigidBody;
     [SerializeField] private Rigidbody ropeRigidBody;
     private float successSwing = 27.5f; 
 
     private bool isSpaceBarPressed = false;
-    private float spaceBarHoldDuration = 1f;
+    private float startTime;
 
 
     // Start is called before the first frame update
@@ -51,11 +55,16 @@ public class SwingController : MonoBehaviour
         previousRopePosition = ropeTransform.position;
 
         playerRigidBody = playerTransform.GetComponent<Rigidbody>();
+       
+
 
     }
 
     private void Update()
     {
+    
+        swingInputReference.action.performed += TimeAllocate;
+        swingInputReference.action.canceled += calc;
         if (Input.GetKeyDown(KeyCode.Space)) // longer you hold space the more force
         {
             isSpaceBarPressed = true;
@@ -64,19 +73,33 @@ public class SwingController : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            Vector3 swingDirection = CalculateSwingDirection(playerTransform, ropeTransform);
-            NewswingForce = StartswingForce * (spaceBarHoldDuration * 3); //force * timedur * multiplier
-            playerRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
-            ropeRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
-            isSpaceBarPressed = false;
-            spaceBarHoldDuration = 0f;
+           
         }
 
         if (isSpaceBarPressed)
         {
-            spaceBarHoldDuration += Time.deltaTime;
+            
 
         }
+    }
+
+    private void calc(InputAction.CallbackContext obj)
+    {
+        Vector3 swingDirection = CalculateSwingDirection(playerTransform, ropeTransform);
+        float holdDuration = Time.time - startTime;
+        NewswingForce = StartswingForce * (holdDuration * 3); //force * timedur * multiplier
+        playerRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
+        ropeRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
+        isSpaceBarPressed = false;
+        Debug.Log("unpressed" + holdDuration);
+        holdDuration = 0f;
+     
+    }
+
+    private void TimeAllocate(InputAction.CallbackContext obj)
+    {
+        startTime += Time.time ;
+        Debug.Log("pressed" + Time.time);
     }
 
     // Update is called once per frame
@@ -99,6 +122,13 @@ public class SwingController : MonoBehaviour
         }
 
     }
+
+    private void OnEnable()
+    {
+        
+
+    }
+
 
     private Vector3 CalculateSwingDirection(Transform player, Transform rope)
     {

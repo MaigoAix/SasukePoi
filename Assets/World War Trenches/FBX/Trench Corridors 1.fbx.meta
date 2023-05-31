@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 0cd4acba61a1b514492ce465d17f8a7a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Trench Corridor 1
+    100002: Trench Corridor 2
+    100004: Trench Corridor 3
+    100006: Trench Corridor 4
+    100008: //RootNode
+    100010: Trench Corridor 4-Way 1
+    100012: Trench Corridor 4-Way 2
+    100014: Trench Corridor 4-Way 3
+    100016: Trench Corridor Corner 1
+    100018: Trench Corridor Corner 2
+    100020: Trench Corridor Corner 3
+    100022: Trench Corridor End Cap 1
+    100024: Trench Corridor End Cap 2
+    100026: Trench Corridor End Cap 3
+    100028: Trench Corridor Straight A1
+    100030: Trench Corridor Straight A2
+    100032: Trench Corridor Straight A3
+    100034: Trench Corridor Straight B1
+    100036: Trench Corridor Straight B2
+    100038: Trench Corridor Straight B3
+    400000: Trench Corridor 1
+    400002: Trench Corridor 2
+    400004: Trench Corridor 3
+    400006: Trench Corridor 4
+    400008: //RootNode
+    400010: Trench Corridor 4-Way 1
+    400012: Trench Corridor 4-Way 2
+    400014: Trench Corridor 4-Way 3
+    400016: Trench Corridor Corner 1
+    400018: Trench Corridor Corner 2
+    400020: Trench Corridor Corner 3
+    400022: Trench Corridor End Cap 1
+    400024: Trench Corridor End Cap 2
+    400026: Trench Corridor End Cap 3
+    400028: Trench Corridor Straight A1
+    400030: Trench Corridor Straight A2
+    400032: Trench Corridor Straight A3
+    400034: Trench Corridor Straight B1
+    400036: Trench Corridor Straight B2
+    400038: Trench Corridor Straight B3
+    2100000: Trenches 1
+    2100002: Wood 1
+    2300000: Trench Corridor 1
+    2300002: Trench Corridor 2
+    2300004: Trench Corridor 3
+    2300006: Trench Corridor 4
+    2300008: Trench Corridor 4-Way 1
+    2300010: Trench Corridor 4-Way 2
+    2300012: Trench Corridor 4-Way 3
+    2300014: Trench Corridor Corner 1
+    2300016: Trench Corridor Corner 2
+    2300018: Trench Corridor Corner 3
+    2300020: Trench Corridor End Cap 1
+    2300022: Trench Corridor End Cap 2
+    2300024: Trench Corridor End Cap 3
+    2300026: Trench Corridor Straight A1
+    2300028: Trench Corridor Straight A2
+    2300030: Trench Corridor Straight A3
+    2300032: Trench Corridor Straight B1
+    2300034: Trench Corridor Straight B2
+    2300036: Trench Corridor Straight B3
+    3300000: Trench Corridor 1
+    3300002: Trench Corridor 2
+    3300004: Trench Corridor 3
+    3300006: Trench Corridor 4
+    3300008: Trench Corridor 4-Way 1
+    3300010: Trench Corridor 4-Way 2
+    3300012: Trench Corridor 4-Way 3
+    3300014: Trench Corridor Corner 1
+    3300016: Trench Corridor Corner 2
+    3300018: Trench Corridor Corner 3
+    3300020: Trench Corridor End Cap 1
+    3300022: Trench Corridor End Cap 2
+    3300024: Trench Corridor End Cap 3
+    3300026: Trench Corridor Straight A1
+    3300028: Trench Corridor Straight A2
+    3300030: Trench Corridor Straight A3
+    3300032: Trench Corridor Straight B1
+    3300034: Trench Corridor Straight B2
+    3300036: Trench Corridor Straight B3
+    4300000: Trench Corridor 4
+    4300002: Trench Corridor 3
+    4300004: Trench Corridor 2
+    4300006: Trench Corridor 1
+    4300008: Trench Corridor Corner 2
+    4300010: Trench Corridor 4-Way 2
+    4300012: Trench Corridor Straight A2
+    4300014: Trench Corridor Straight B2
+    4300016: Trench Corridor End Cap 2
+    4300018: Trench Corridor Straight B3
+    4300020: Trench Corridor Straight B1
+    4300022: Trench Corridor End Cap 3
+    4300024: Trench Corridor Corner 3
+    4300026: Trench Corridor 4-Way 3
+    4300028: Trench Corridor Straight A3
+    4300030: Trench Corridor Straight A1
+    4300032: Trench Corridor 4-Way 1
+    4300034: Trench Corridor Corner 1
+    4300036: Trench Corridor End Cap 1
+    6400000: Trench Corridor 1
+    6400002: Trench Corridor 2
+    6400004: Trench Corridor 3
+    6400006: Trench Corridor 4
+    6400008: Trench Corridor 4-Way 1
+    6400010: Trench Corridor 4-Way 2
+    6400012: Trench Corridor 4-Way 3
+    6400014: Trench Corridor Corner 1
+    6400016: Trench Corridor Corner 2
+    6400018: Trench Corridor Corner 3
+    6400020: Trench Corridor End Cap 1
+    6400022: Trench Corridor End Cap 2
+    6400024: Trench Corridor End Cap 3
+    6400026: Trench Corridor Straight A1
+    6400028: Trench Corridor Straight A2
+    6400030: Trench Corridor Straight A3
+    6400032: Trench Corridor Straight B1
+    6400034: Trench Corridor Straight B2
+    6400036: Trench Corridor Straight B3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trenches 1
+    second: {fileID: 2100000, guid: 6a666541f4c82ca4cb4e32729096e707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 1
+    second: {fileID: 2100000, guid: a46fd4c8b8f5f9b4c926982e94b8fae8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

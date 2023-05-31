@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 3187349b1f48a4646a3c0a661af4eb5b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Barbed Fence 1A
+    100002: Barbed Fence 1B
+    100004: Barbed Fence 1C
+    100006: Barbed Fence 1D
+    100008: //RootNode
+    100010: Barbed Wire Coils 1A
+    100012: Barbed Wire Coils 1B
+    100014: Barbed Wire Coils 1C
+    100016: Barbed Wire Coils 2A
+    100018: Barbed Wire Coils 2B
+    100020: Barbed Wire Coils 2C
+    100022: Barbed Wire Coils 3A
+    100024: Barbed Wire Coils 3B
+    100026: Barbed Wire Coils 3C
+    100028: Empty Spiked Fence 1A
+    100030: Empty Spiked Fence 1B
+    400000: Barbed Fence 1A
+    400002: Barbed Fence 1B
+    400004: Barbed Fence 1C
+    400006: Barbed Fence 1D
+    400008: //RootNode
+    400010: Barbed Wire Coils 1A
+    400012: Barbed Wire Coils 1B
+    400014: Barbed Wire Coils 1C
+    400016: Barbed Wire Coils 2A
+    400018: Barbed Wire Coils 2B
+    400020: Barbed Wire Coils 2C
+    400022: Barbed Wire Coils 3A
+    400024: Barbed Wire Coils 3B
+    400026: Barbed Wire Coils 3C
+    400028: Empty Spiked Fence 1A
+    400030: Empty Spiked Fence 1B
+    2100000: barb
+    2100002: Wood 2
+    2300000: Barbed Fence 1A
+    2300002: Barbed Fence 1B
+    2300004: Barbed Fence 1C
+    2300006: Barbed Fence 1D
+    2300008: Barbed Wire Coils 1A
+    2300010: Barbed Wire Coils 1B
+    2300012: Barbed Wire Coils 1C
+    2300014: Barbed Wire Coils 2A
+    2300016: Barbed Wire Coils 2B
+    2300018: Barbed Wire Coils 2C
+    2300020: Barbed Wire Coils 3A
+    2300022: Barbed Wire Coils 3B
+    2300024: Barbed Wire Coils 3C
+    2300026: Empty Spiked Fence 1A
+    2300028: Empty Spiked Fence 1B
+    3300000: Barbed Fence 1A
+    3300002: Barbed Fence 1B
+    3300004: Barbed Fence 1C
+    3300006: Barbed Fence 1D
+    3300008: Barbed Wire Coils 1A
+    3300010: Barbed Wire Coils 1B
+    3300012: Barbed Wire Coils 1C
+    3300014: Barbed Wire Coils 2A
+    3300016: Barbed Wire Coils 2B
+    3300018: Barbed Wire Coils 2C
+    3300020: Barbed Wire Coils 3A
+    3300022: Barbed Wire Coils 3B
+    3300024: Barbed Wire Coils 3C
+    3300026: Empty Spiked Fence 1A
+    3300028: Empty Spiked Fence 1B
+    4300000: Barbed Fence 1C
+    4300002: Barbed Wire Coils 3B
+    4300004: Barbed Wire Coils 3C
+    4300006: Barbed Wire Coils 3A
+    4300008: Empty Spiked Fence 1B
+    4300010: Empty Spiked Fence 1A
+    4300012: Barbed Wire Coils 1C
+    4300014: Barbed Wire Coils 2C
+    4300016: Barbed Wire Coils 2B
+    4300018: Barbed Wire Coils 1B
+    4300020: Barbed Wire Coils 2A
+    4300022: Barbed Wire Coils 1A
+    4300024: Barbed Fence 1D
+    4300026: Barbed Fence 1B
+    4300028: Barbed Fence 1A
+    6400000: Barbed Fence 1A
+    6400002: Barbed Fence 1B
+    6400004: Barbed Fence 1C
+    6400006: Barbed Fence 1D
+    6400008: Barbed Wire Coils 1A
+    6400010: Barbed Wire Coils 1B
+    6400012: Barbed Wire Coils 1C
+    6400014: Barbed Wire Coils 2A
+    6400016: Barbed Wire Coils 2B
+    6400018: Barbed Wire Coils 2C
+    6400020: Barbed Wire Coils 3A
+    6400022: Barbed Wire Coils 3B
+    6400024: Barbed Wire Coils 3C
+    6400026: Empty Spiked Fence 1A
+    6400028: Empty Spiked Fence 1B
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 2
+    second: {fileID: 2100000, guid: a17e92d9526b9be43bad908c6ca66e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barb
+    second: {fileID: 2100000, guid: 670f61bd3ae88464e9e51422f5d5c13a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

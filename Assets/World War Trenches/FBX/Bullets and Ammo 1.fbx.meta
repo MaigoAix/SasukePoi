@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 8f53b88962717634e9034b59156a1910
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ammo Cardboard Box 1
+    100002: Ammo Cardboard Box 2
+    100004: Ammo Cardboard Box 3
+    100006: Ammo Cardboard Box 4
+    100008: Ammo Cardboard Box 5
+    100010: Bullet 1
+    100012: Bullet 2
+    100014: Bullet 3
+    100016: Bullet Holder 1
+    100018: Bullet Holder 2
+    100020: Bullet Holder 3
+    100022: Bullet Holder 4
+    100024: //RootNode
+    400000: Ammo Cardboard Box 1
+    400002: Ammo Cardboard Box 2
+    400004: Ammo Cardboard Box 3
+    400006: Ammo Cardboard Box 4
+    400008: Ammo Cardboard Box 5
+    400010: Bullet 1
+    400012: Bullet 2
+    400014: Bullet 3
+    400016: Bullet Holder 1
+    400018: Bullet Holder 2
+    400020: Bullet Holder 3
+    400022: Bullet Holder 4
+    400024: //RootNode
+    2100000: Ammo 1
+    2300000: Ammo Cardboard Box 1
+    2300002: Ammo Cardboard Box 2
+    2300004: Ammo Cardboard Box 3
+    2300006: Ammo Cardboard Box 4
+    2300008: Ammo Cardboard Box 5
+    2300010: Bullet 1
+    2300012: Bullet 2
+    2300014: Bullet 3
+    2300016: Bullet Holder 1
+    2300018: Bullet Holder 2
+    2300020: Bullet Holder 3
+    2300022: Bullet Holder 4
+    3300000: Ammo Cardboard Box 1
+    3300002: Ammo Cardboard Box 2
+    3300004: Ammo Cardboard Box 3
+    3300006: Ammo Cardboard Box 4
+    3300008: Ammo Cardboard Box 5
+    3300010: Bullet 1
+    3300012: Bullet 2
+    3300014: Bullet 3
+    3300016: Bullet Holder 1
+    3300018: Bullet Holder 2
+    3300020: Bullet Holder 3
+    3300022: Bullet Holder 4
+    4300000: Bullet Holder 1
+    4300002: Bullet Holder 3
+    4300004: Ammo Cardboard Box 2
+    4300006: Ammo Cardboard Box 1
+    4300008: Bullet Holder 4
+    4300010: Bullet Holder 2
+    4300012: Bullet 1
+    4300014: Bullet 2
+    4300016: Ammo Cardboard Box 4
+    4300018: Ammo Cardboard Box 3
+    4300020: Ammo Cardboard Box 5
+    4300022: Bullet 3
+    6400000: Ammo Cardboard Box 1
+    6400002: Ammo Cardboard Box 2
+    6400004: Ammo Cardboard Box 3
+    6400006: Ammo Cardboard Box 4
+    6400008: Ammo Cardboard Box 5
+    6400010: Bullet 1
+    6400012: Bullet 2
+    6400014: Bullet 3
+    6400016: Bullet Holder 1
+    6400018: Bullet Holder 2
+    6400020: Bullet Holder 3
+    6400022: Bullet Holder 4
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ammo 1
+    second: {fileID: 2100000, guid: 9cc4d81d52ea73b4d8dad0c8f34094d2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
