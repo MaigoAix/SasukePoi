@@ -15,6 +15,8 @@ public class GrabController : MonoBehaviour
     public ClimbingState currentState;
     public ClimbingState previousState;
 
+    public static event Action<GameObject> PlayerCollisionWithWater;
+
     private void Awake()
     {
         currentState = ClimbingState.Idle;
@@ -65,6 +67,11 @@ public class GrabController : MonoBehaviour
         if (collision.gameObject.CompareTag("ClimbableWall"))
         {
             currentState = ClimbingState.Climbing;
+        }
+
+        if (collision.gameObject.CompareTag("Water"))
+        {
+            PlayerCollisionWithWater?.Invoke(gameObject);
         }
     }
 
