@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Water
   - ClimbableWall
+  - Rope
   layers:
   - Default
   - TransparentFX

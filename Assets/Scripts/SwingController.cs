@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-[RequireComponent(typeof(Rigidbody))]   
+[RequireComponent(typeof(Rigidbody))]
 
 public class SwingController : MonoBehaviour
 {
@@ -38,9 +38,9 @@ public class SwingController : MonoBehaviour
     [SerializeField] public float NewswingForce;
     [SerializeField] private Rigidbody playerRigidBody;
     [SerializeField] private Rigidbody ropeRigidBody;
-    private float successSwing = 27.5f; 
+    private float successSwing = 27.5f;
 
-    private bool isSpaceBarPressed = false;
+    private bool HoldingRope = false;
     private float startTime;
 
 
@@ -55,32 +55,19 @@ public class SwingController : MonoBehaviour
         previousRopePosition = ropeTransform.position;
 
         playerRigidBody = playerTransform.GetComponent<Rigidbody>();
-       
+
 
 
     }
 
     private void Update()
     {
-    
-        swingInputReference.action.performed += TimeAllocate;
-        swingInputReference.action.canceled += calc;
-        if (Input.GetKeyDown(KeyCode.Space)) // longer you hold space the more force
-        {
-            isSpaceBarPressed = true;
-
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-           
-        }
-
-        if (isSpaceBarPressed)
-        {
-            
-
-        }
+       // Debug.Log(HoldingRope);
+       // if (HoldingRope)
+       // {
+            swingInputReference.action.performed += TimeAllocate;
+            swingInputReference.action.canceled += calc;
+       // }
     }
 
     private void calc(InputAction.CallbackContext obj)
@@ -90,42 +77,21 @@ public class SwingController : MonoBehaviour
         NewswingForce = StartswingForce * (holdDuration * 3); //force * timedur * multiplier
         playerRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
         ropeRigidBody.AddForce(swingDirection * NewswingForce, ForceMode.Acceleration);
-        isSpaceBarPressed = false;
         Debug.Log("unpressed" + holdDuration);
         holdDuration = 0f;
-     
+
     }
 
     private void TimeAllocate(InputAction.CallbackContext obj)
     {
-        startTime += Time.time ;
+        startTime += Time.time;
         Debug.Log("pressed" + Time.time);
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        //Check if the player or rope positions have changed
-        //if (playerTransform.position != previousPlayerPosition || ropeTransform.position != previousPlayerPosition)
-        {
-            // Player or rope position has changed, update the previous positions and perform necessary actions
-           // previousPlayerPosition = playerTransform.position;
-           // previousRopePosition = ropeTransform.position;
-
-            //serves no purpose rn
-
-            //if (isSwinging)
-            //{
-           
-                //}
-
-        }
-
-    }
 
     private void OnEnable()
     {
-        
+
 
     }
 
@@ -133,6 +99,14 @@ public class SwingController : MonoBehaviour
     private Vector3 CalculateSwingDirection(Transform player, Transform rope)
     {
         return rope.position - player.position;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            HoldingRope = true;
+        }
     }
 
     // private Vector3 CalculateSwingDirection(Transform playerTransform, Transform ropeTransform)
